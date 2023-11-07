@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background-color: #EDEAEA;
+}
+
+header {
+    height: 100px;
+    padding: 0 20px;
+    background-color: #BE89CB;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+#menuNavegacao {
+    display: flex;
+    gap: 40px;
+
+}
+
+
+#menuNavegacao li a {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Open Sans;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+
+
+}
+
+    #menuNavegacao li a:hover {
+        border-bottom: 2px solid #fff;
+
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section {
+    padding: 45px 30px;
+    margin: auto;
+    width: 960px;
+}
+
+.sub-section {
+    background-color: #dbd9d9;
+    width: 100%;
+}
+
+h1 {
+    font-size: 1.75em;
+}
+
+h2 {
+    font-size: 1.25em;
+    font-family: Open Sans;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+
+h1,
+h3 {
+    color: #ef0ab6;
+}
+
+h2,
+h4 {
+    color: #948f8f;
+}
+
+section ul {
+    max-width: 760px;
+    margin: auto;
+}
+
+.foto-perfil {
+    width: 150px;
+    border: 5px solid #ef0ab6;
+
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.foto-perfil:hover {
+    opacity: 0.6;
+}
+.footer{
+    height: 100px;
+    padding: 0 20px;
+    background-color: #BE89CB;
+    display: flex;
+    align-content: center;
+}
